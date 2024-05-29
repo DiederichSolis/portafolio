@@ -8,13 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors:{
-        secondary: "rgb(251, 133, 0)",
-        darkBg:"rgb(2, 48, 71)"
+      colors: {
+        secondary: "#8ECAE6",
+        darkBg:"#219EBC"
       },
       backgroundImage: {
         "gradient-cover":
-        "linear-gradient(90.21deg, rgba(70, 54, 124, 0.5) 5.91%, rgba(74, 47,189,0.5)111.58%)",
+          "linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
       },
     },
   },
